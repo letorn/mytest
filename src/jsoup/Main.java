@@ -26,4 +26,13 @@ public class Main {
 		System.out.println(res);
 	}
 	
+	@Test
+	public void testCarte() throws Exception {
+		String url = "http://localhost:8088/kettle/hb";
+		Response response = Jsoup.connect(url).method(Method.POST).ignoreContentType(true).execute();
+		// Response response = Jsoup.connect(url).method(Method.GET).ignoreContentType(true).execute();
+		String res = response.body();
+		System.out.println(res);
+	}
+	
 }
