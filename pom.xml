@@ -35,5 +35,11 @@
       <artifactId>mongo-java-driver</artifactId>
       <version>3.0.3</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.zookeeper</groupId>
+      <artifactId>zookeeper</artifactId>
+      <version>3.4.8</version>
+    </dependency>
+    
   </dependencies>
 </project>

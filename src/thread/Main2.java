@@ -1,12 +1,9 @@
 package thread;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class Main2 {
 
 	public static Integer num = -1;
-	
+
 	public static void main(String[] args) throws Exception {
 		System.out.println("start");
 		new Thread(new Runnable() {
